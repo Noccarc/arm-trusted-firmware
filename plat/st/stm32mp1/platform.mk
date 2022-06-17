@@ -91,7 +91,7 @@ STM32MP_UART_PROGRAMMER	?=	0
 BL33_HYP			?= 0
 
 # Device tree
-DTB_FILE_NAME		?=	stm32mp157c-ev1.dtb
+DTB_FILE_NAME		?=	stm32mp157c-noccarc.dtb
 ifeq ($(STM32MP_USE_STM32IMAGE),1)
 ifeq ($(AARCH32_SP),optee)
 BL2_DTSI		:=	stm32mp15-bl2.dtsi
